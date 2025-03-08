@@ -1,0 +1,309 @@
+/* Basic CSS for the page */
+@import url('https://fonts.cdnfonts.com/css/fresh-steak');
+
+body {
+    font-family: 'Fresh Steak', sans-serif;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #000000;
+    background: rgb(167, 222, 255);
+    background: -moz-radial-gradient(circle, rgba(167, 222, 255, 1) 0%, rgba(3, 110, 255, 1) 89%);
+    background: -webkit-radial-gradient(circle, rgba(167, 222, 255, 1) 0%, rgba(3, 110, 255, 1) 89%);
+    background: radial-gradient(circle, rgb(123, 153, 167) 0%, rgb(1, 69, 163) 89%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a7deff", endColorstr="#036eff", GradientType=1);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+header h1 {
+    font-size: 160px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+.socials {
+    width: fit-content;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0%;
+}
+
+svg {
+    width: 120px;
+    height: 120px;
+
+}
+
+path {
+    fill: #ffffff;
+    font-weight: 300;
+    stroke: #000000;
+    stroke-width: 0.4px;
+    animation: rainbow 1s linear infinite;
+}
+
+
+.copycontract {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.copycontract button {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.copycontract h3 {
+    margin-left: 10px;
+}
+
+
+h3 {
+    font-size: 27px;
+    -webkit-text-stroke-width: 0px;
+    font-weight: 300;
+}
+
+h2 {
+    margin-bottom: 0%;
+    font-size: 45px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+/* Button style */
+button {
+    -webkit-text-stroke-width: 0px;
+    background-color: #0452FD;
+    border-radius: 15px;
+    color: rgb(0, 255, 0);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    height: 58px;
+    font-family: 'Fresh Steak', sans-serif;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: #1024ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about {
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.info {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.infoinner {
+    padding: 10px;
+    margin: 1px;
+
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 500px;
+    margin-top: 7%;
+    /* display: inline-block; */
+}
+
+
+.infoinner2 {
+    padding: 10px;
+    margin: 1px;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 500px;
+    height: 500px;
+    /* display: inline-block; */
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 80%;
+    height: 80%;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #0452FD;
+    border-width: 4px;
+    border-radius: 400px;
+    background-image: url("basechain.png");
+    background-size: cover;
+}
+
+.tokenomics {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.info2 {
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0%;
+    margin-top: 0%;
+}
+
+
+.tokenomicscard {
+    padding: 10px;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 500px;
+    height: auto;
+    font-weight: 300;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background-color: #0452FD;
+    /* display: inline-block; */
+}
+
+.tokenomicscard p {
+    margin: 0%;
+    font-size: 70px;
+}
+
+.howtobuycard {
+    padding: 10px;
+    margin: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 4px;
+    width: 1000px;
+    height: 100px;
+    font-weight: 100;
+    text-align: center;
+    font-size: 40px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    color: #ffffff;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgba(255, 0, 0, 0);
+    background-color: #0452FD;
+    /* display: inline-block; */
+}
+
+.disclaimer {
+    background-color: #0452FD;
+    -webkit-text-stroke-width: 0px;
+    padding: 25px;
+    text-align: center;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 0;
+}
+
+.howtobuycard h3 {
+    font-size: 25px;
+    margin-top: 0%;
+}
+
+
+/* particles stuff */
+
+
+#particles-js {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+
+#particles-js2 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+
+
+#particles-js3 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
+#particles-js4{
+    display: block;
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin-top: 0%;
+}
