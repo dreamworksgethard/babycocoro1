@@ -8,7 +8,7 @@ body {
     background: rgb(167, 222, 255);
     background: -moz-radial-gradient(circle, rgba(167, 222, 255, 1) 0%, rgba(3, 110, 255, 1) 89%);
     background: -webkit-radial-gradient(circle, rgba(167, 222, 255, 1) 0%, rgba(3, 110, 255, 1) 89%);
-    background: radial-gradient(circle, rgb(123, 153, 167) 0%, rgb(1, 69, 163) 89%);
+    background: radial-gradient(circle, rgb(0, 68, 255) 0%, rgb(0, 29, 70) 89%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a7deff", endColorstr="#036eff", GradientType=1);
     color: #ffffff;
     margin: 0;
